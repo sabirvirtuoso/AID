@@ -1,0 +1,212 @@
+/* 
+    Document   : Custom.css
+    Created on : Aug 22, 2012, 7:29:18 PM
+    Author     : Fahad Hasan
+    Description: Provides custom style definitions for IUTAA Website
+*/
+
+body {
+    font-family: "Tahoma";
+    font-size: 12px;
+    color: #383838;
+}
+
+root { 
+    display: block;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.left-panel {
+    height: 490px;
+    background: #FFF;
+}
+
+.right-panel {
+    height: 490px;
+    background: #FFF;
+}
+
+.footer {
+    border-top: 1px solid #C6C6C6;
+}
+
+.banner {
+    border-radius: 4px 4px 0 0; 
+    border: 1px solid #D4D4D4;
+    border-bottom: 0;
+    padding: 20px; 
+    margin-bottom: 0px; 
+    height: 0 20px; 
+    background: url('../img/banner.jpg') repeat scroll 0pt -450px transparent;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.067)
+}
+
+.left-panel-footer ul {
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.right-panel-footer ul {
+    float: right;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.gallery {
+    height: 340px;
+}
+
+.flash-news {
+    height: 150px;
+    background: #0480be;
+    color: #FFF;
+}
+
+.article-text {
+    width: 440px;
+    padding: 10px;
+}
+
+.article-text h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+input, button {
+    font-family: "Tahoma";
+    font-size: 12px;
+}
+
+form {
+    padding: 20px;
+}
+
+.overlay-search {
+    position: absolute;
+    opacity: 0.5;
+}
+
+.overlay-search:hover {
+    opacity: 1.0;
+}
+
+.overlay-search input {
+    margin-bottom: 0;
+    width: 360px;
+}
+
+.pic-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.social-fb {
+    background-color: #3B5998;
+    background-image: -moz-linear-gradient(center top , #627AAD, #3B5998);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    background-image: url('../img/facebook_22X22.png');
+    background-repeat: no-repeat;
+    background-position: 2px 4px;
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -moz-transition: all 0.1s linear 0s;
+    border-radius: 0 0 0 0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 5px 12px 6px 30px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+    filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+    *zoom: 1;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.social-fb:hover {
+    text-decoration: none;
+    background-image: url('../img/facebook_22X22.png');
+    background-repeat: no-repeat;
+    background-position: 2px 4px;
+}
+
+.profile-pic {
+    width: 200px;
+}
+
+.profile-stats {
+    margin-top: 50px;
+    font-size: 12px;
+    color: #7D7D7D;
+}
+
+.fileInput {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    border: solid transparent;
+    opacity: 0.0;
+    filter: alpha(opacity=0);
+    float: left;
+    -o-transform: translate(250px, -50px) scale(1);
+    -moz-transform: translate(-300px, 0) scale(4);
+    direction: ltr;
+    cursor: pointer;
+    margin-right: 150px;
+}
+
+.fileInputButton {
+    position: relative;
+    cursor: pointer;
+    text-align: left;
+    overflow: visible;
+    overflow: hidden;
+}
+.password {
+    font-size : 12px;
+    border : 1px solid #cc9933;
+    width : 200px;
+    font-family : arial, sans-serif;
+}
+.pstrength-minchar {
+    font-size : 10px;
+    color : blue;
+}
+dl.help dt {
+    font-weight: bold;
+    border: 1px solid #D4D4D4;
+    border-radius: 04px 4px;
+    margin-bottom: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+dl.help dt a:hover {
+    text-decoration: none;
+}
+dl.help dd {
+    display: none;
+    margin-bottom: 20px;
+}
+
+select {
+    margin-bottom: 0px;
+}
